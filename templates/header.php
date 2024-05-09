@@ -1,4 +1,4 @@
-<?php 
+<?php
     include_once("config/urlBase.php");
     include_once("config/processar_formulario.php");
 
@@ -17,7 +17,7 @@
 </head>
 <body>
 <header>
-        <h1>Empresa ExCompassosUOL</h1>
+        <h1>Javeiros</h1>
         <nav>
             <ul>
                 <li><a href="sobre.php">Sobre</a></li>

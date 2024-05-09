@@ -1,4 +1,4 @@
-<?php 
+<?php
 
     include_once("templates/header.php");
 
@@ -6,12 +6,14 @@
 
 
 <h1>
-    <P>Sobre Nós!!</P>
-    <p>Alunos do Curso de ADS na Uniasselvi, Estamos aprendendo um Pouco Sobre Front-End</p>
+    <P>Um pouco sobre nós =)</P>
 </h1>
+<h2><p>Somos um grupo de alunos de ADS, entusiastas de tecnologia, e estamos aprendendo um pouco sobre front-end. Somos todos do back, onde nada tem corzinha😞😞😞</p>
+    <p>Dito isso, espero que nos perdoe pela combinação estranha de cores...</p>
+</h2>
 
 
-<?php 
+<?php
     include_once("templates/footer.php");
 
 ?>

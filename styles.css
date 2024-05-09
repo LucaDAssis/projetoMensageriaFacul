@@ -4,13 +4,14 @@ body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f7f7f7;
+    /*background-color: #f7f7f7;*/
+    background-color: #4e62b7;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+    background-color: #7fb7d3;
+    color: #ffffff;
+    padding: 30px;
     text-align: center;
 }
 
@@ -26,13 +27,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #f9fafd;
+    padding: 20px;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #ccc;
+    color: #273e9a;
 }
 
 main {
@@ -59,16 +61,20 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-
+/*botao de enviar*/
 button {
-    background-color: #333;
+    background-color: #273e9a;
     color: #fff;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-
+/* muda a cor do botao de enmviar quando o mouse ta em cima*/
 button:hover {
-    background-color: #555;
+    background-color: #6faece;
+}
+
+servicos{
+
 }

@@ -1,19 +1,11 @@
-<?php 
+<?php
 
     include_once("templates/header.php");
 
 ?>
     <main>
-        <section id="sobre">
-            <h2>Sobre Nós</h2>
-            <p>Joga Na Conta do Pai!</p>
-        </section>
-        <section id="servicos">
-            <h2>Serviços</h2>
-            <p>Jogar Na Conta do Pai!!</p>
-        </section>
         <section id="contato">
-            <h2>Entre em Contato</h2>
+            <h2>Entre em Contato Conosco!</h2>
             <form action="<?= $BASE_URL?>config/processar_formulario.php" method="POST">
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" name="nome" required>
@@ -26,7 +18,7 @@
         </section>
     </main>
 
-<?php 
+<?php
     include_once("templates/footer.php");
 
 ?>
