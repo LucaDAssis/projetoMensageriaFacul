@@ -70,11 +70,18 @@ button {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-/* muda a cor do botao de enmviar quando o mouse ta em cima*/
+/* muda a cor do botao de enviar quando o mouse ta em cima*/
 button:hover {
     background-color: #6faece;
 }
 
-servicos{
+#sobre {
+    padding-left: 20px;
+}
 
+#servico{
+    padding-left: 20px;
+}
+#contato{
+    padding-left: 20px;
 }
