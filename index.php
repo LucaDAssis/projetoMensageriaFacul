@@ -7,7 +7,7 @@ include_once("templates/header.php");
     <main>
         <section id="contato">
             <h2>Entre em Contato Conosco!</h2>
-            <form action="<?= $BASE_URL?>config/urlBase.php" method="POST">
+            <form action="<?= $BASE_URL?>config/thanks.php" method="POST">
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" name="nome" required>
                 <label for="email">E-mail:</label>
