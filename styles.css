@@ -1,8 +1,49 @@
 /* styles.css */
 
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Define a altura mínima da página para ocupar toda a altura da janela de visualização */
+    background-color: black;
+}
+
+#contato {
+    width: 600px; /* Aumenta a largura do formulário */
+    padding: 40px; /* Aumenta o espaço interno do formulário */
+    background-color: #fff; /* Fundo branco para o formulário */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(128, 128, 128, 0.5); /* Sombra suave */
+    margin: 50px auto; /* Centraliza o formulário horizontalmente e adiciona espaçamento acima e abaixo */
+    font-size: 18px; /* Aumenta o tamanho da fonte */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Adiciona margem inferior aos elementos form-group */
+}
+
+button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.form-wrapper {
+    background-color: #f2f2f2; /* Cinza claro */
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
+}
+
+
 footer {
     padding: 20px;
     text-align: center;
-    margin-top: auto;
+    margin-top: auto; /* Empurra o footer para o final da página */
+    color: white;
 }
+
+
+
+
+
 
