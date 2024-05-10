@@ -5,10 +5,10 @@
 ?>
 
 
-<h1>
+<h1 id="sobre">
     <P>Um pouco sobre nós =)</P>
 </h1>
-<h2><p>Somos um grupo de alunos de ADS, entusiastas de tecnologia, e estamos aprendendo um pouco sobre front-end. Somos todos do back, onde nada tem corzinha😞😞😞</p>
+<h2 id="sobre"><p>Somos um grupo de alunos de ADS, entusiastas de tecnologia, e estamos aprendendo um pouco sobre front-end. Somos todos do back, onde nada tem corzinha😞😞😞</p>
     <p>Dito isso, espero que nos perdoe pela combinação estranha de cores...</p>
 </h2>
 
