@@ -13,7 +13,8 @@
 </head>
 <body>
 <header>
-  <nav class="navbar navbar-expand-lg navbar-dark" style="background-image: linear-gradient(to top, #000000, #430447);"> 
+
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-image: linear-gradient(to top, #000000, #430447);">
     <div class="container-fluid">
       <a class="navbar-brand me-4" href="#" style="font-size: 30px;">Javeiros</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,6 +38,7 @@
       </div>
     </div>
   </nav>
+
 </header>
 </body>
 </html>

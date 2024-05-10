@@ -22,11 +22,6 @@ body {
     margin-bottom: 15px; /* Adiciona margem inferior aos elementos form-group */
 }
 
-button {
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
 .form-wrapper {
     background-color: #f2f2f2; /* Cinza claro */
     width: 100%;

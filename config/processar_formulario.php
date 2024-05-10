@@ -1,6 +1,5 @@
 <?php
 
-
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $nome = htmlspecialchars($_POST["nome"]);
@@ -8,18 +7,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mensagem = htmlspecialchars($_POST["mensagem"]);
 
 
-
     if (empty($nome) || empty($email) || empty($mensagem)) {
         die("Por favor, preencha todos os campos do formulário.");
     }
+
+
+    $conexao = new mysqli("localhost", "root", "root");
 
 
     if ($conexao->connect_error) {
         die("Erro de conexão: " . $conexao->connect_error);
     }
 
-
-    $conexao = new mysqli("localhost", "root", "root", "trampofacul");
 
     $conexao->query("CREATE DATABASE IF NOT EXISTS trampofacul");
 

@@ -1,5 +1,4 @@
 <?php
-
 global $BASE_URL;
 include_once("templates/header.php");
 
@@ -7,7 +6,7 @@ include_once("templates/header.php");
     <main>
         <section id="contato">
             <h2>Entre em Contato Conosco!</h2>
-            <form>
+            <form action="<?= $BASE_URL?>config/processar_formulario.php" method="POST">
             <div class="form-group">
                     <label for="exampleInputPassword1">Seu Nome</label>
                     <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Seu Nome">
