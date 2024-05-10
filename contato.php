@@ -1,17 +1,32 @@
 <?php
-    include_once("templates/header.php");
+global $BASE_URL;
+include_once("templates/header.php");
+
 ?>
+    <main>
+        <section id="contato">
+            <h2>Entre em Contato Conosco!</h2>
+            <form>
+            <div class="form-group">
+                    <label for="exampleInputPassword1">Seu Nome</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Seu Nome">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Endereço de email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
+                    <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Sua Mensagem</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensagem"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
 
-<h1 id="contato">
-    <p>Deixaremos nossos perfis do github abaixo: </p>
-</h1>
-<h2 id="contato">
-    <p>Yasmim Sabrina: <a href=https://github.com/Yasmim-sb">Yasmim-sb</a></p>
-    <p>Lucas Assis: <a href="https://github.com/LucaDLuffy">LucaDLuffy</a></p>
-    <p>Matheus Barros: <a href=https://github.com/theuslinor">theuslinor</a></p>
-
-</h2>
+            </form>
+        </section>
+    </main>
 
 <?php
     include_once("templates/footer.php");
+
 ?>
