@@ -2,12 +2,20 @@
     include_once("templates/header.php");
 ?>
 
-<h1>
-    <p>Deixaremos nossos perfis do github abaixo: </p>
-</h1>
-<p>Yasmim Sabrina: <a href=https://github.com/Yasmim-sb">Yasmim-sb</a></p>
-<p>Lucas Assis: <a href="https://github.com/LucaDLuffy">LucaDLuffy</a></p>
-<p>Matheus Barros: <a href=https://github.com/theuslinor">theuslinor</a></p>
+<main>
+        <section id="contato">
+            <h2>Entre em Contato Conosco!</h2>
+            <form action="<?= $BASE_URL?>config/thanks.php" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
 
 <?php
     include_once("templates/footer.php");
