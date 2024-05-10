@@ -59,6 +59,23 @@ footer {
     background-color: blue;
 }
 
+#servico{
+    color: black;
+    max-width: 90%; /* Define uma largura máxima para o elemento */
+    padding: 5%; /* Adiciona um espaçamento interno relativo */
+    background-color: #fff; /* Fundo branco para o formulário */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(128, 128, 128, 0.5); /* Sombra suave */
+    margin: 5% auto; /* Centraliza o elemento horizontalmente e adiciona espaçamento acima e abaixo */
+    font-size: 18px; /* Aumenta o tamanho da fonte */
+}
+
+#paragrafo {
+    background-color: #f2f2f2; /* Define a cor de fundo */
+    padding: 20px; /* Adiciona espaçamento interno */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    margin-top: 20px; /* Define a margem superior */
+}
 
 
 

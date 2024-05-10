@@ -2,6 +2,8 @@
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
+    var_dump($_POST);
+
     // Verifica se as variáveis do formulário estão definidas
     $nome = isset($_POST["nome"]) ? htmlspecialchars($_POST["nome"]) : null;
     $email = isset($_POST["email"]) ? filter_var($_POST["email"], FILTER_SANITIZE_EMAIL) : null;
@@ -48,6 +50,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->close();
     $conexao->close();
 }
-
-?>
 ?>
