@@ -1,87 +1,84 @@
 /* styles.css */
 
+
 body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    /*background-color: #f7f7f7;*/
-    background-color: #4e62b7;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Define a altura mínima da página para ocupar toda a altura da janela de visualização */
+    background-color: black;
 }
 
-header {
-    background-color: #7fb7d3;
-    color: #ffffff;
-    padding: 30px;
-    text-align: center;
+#contato {
+    width: 600px; /* Aumenta a largura do formulário */
+    padding: 40px; /* Aumenta o espaço interno do formulário */
+    background-color: #fff; /* Fundo branco para o formulário */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(128, 128, 128, 0.5); /* Sombra suave */
+    margin: 50px auto; /* Centraliza o formulário horizontalmente e adiciona espaçamento acima e abaixo */
+    font-size: 18px; /* Aumenta o tamanho da fonte */
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.form-group {
+    margin-bottom: 15px; /* Adiciona margem inferior aos elementos form-group */
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: #f9fafd;
-    padding: 20px;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-nav ul li a:hover {
-    color: #273e9a;
-}
-
-main {
-    padding: 20px;
-}
-
-form {
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-label,
-input,
-textarea {
-    display: block;
-    margin-bottom: 10px;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
+.form-wrapper {
+    background-color: #f2f2f2; /* Cinza claro */
     width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    padding: 15px;
+    box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
 }
-/*botao de enviar*/
-button {
-    background-color: #273e9a;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-/* muda a cor do botao de enviar quando o mouse ta em cima*/
-button:hover {
-    background-color: #6faece;
+
+
+footer {
+    padding: 20px;
+    text-align: center;
+    margin-top: auto; /* Empurra o footer para o final da página */
+    color: white;
 }
 
 #sobre {
-    padding-left: 20px;
+    color: black;
+    max-width: 90%; /* Define uma largura máxima para o elemento */
+    padding: 5%; /* Adiciona um espaçamento interno relativo */
+    background-color: #fff; /* Fundo branco para o formulário */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(128, 128, 128, 0.5); /* Sombra suave */
+    margin: 5% auto; /* Centraliza o elemento horizontalmente e adiciona espaçamento acima e abaixo */
+    font-size: 18px; /* Aumenta o tamanho da fonte */
+}
+
+#sobre h1{
+    text-align: center;
+    margin-bottom: 90px; /* Adiciona margem inferior ao h1 */
+    margin-top: 0; /* Zera a margem superior do h1 */
+}
+
+
+#sobre p{
+    background-color: blue;
 }
 
 #servico{
-    padding-left: 20px;
+    color: black;
+    max-width: 90%; /* Define uma largura máxima para o elemento */
+    padding: 5%; /* Adiciona um espaçamento interno relativo */
+    background-color: #fff; /* Fundo branco para o formulário */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(128, 128, 128, 0.5); /* Sombra suave */
+    margin: 5% auto; /* Centraliza o elemento horizontalmente e adiciona espaçamento acima e abaixo */
+    font-size: 18px; /* Aumenta o tamanho da fonte */
 }
-#contato{
-    padding-left: 20px;
+
+#paragrafo {
+    background-color: #f2f2f2; /* Define a cor de fundo */
+    padding: 20px; /* Adiciona espaçamento interno */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    margin-top: 20px; /* Define a margem superior */
 }
+
+
+
+
+
+
