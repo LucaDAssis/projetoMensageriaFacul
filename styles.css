@@ -48,11 +48,6 @@ footer {
     font-size: 50px; /* Altere o valor do font-size conforme necessário */
 }
 
-
-#sobre ul{
-    color: red;
-}
-
 #paragrafo{
     color: black;
     max-width: 80%; /* Define uma largura máxima para o elemento */
