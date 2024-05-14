@@ -12,7 +12,7 @@
     <img src="./images/feliz.jpg" alt="garoto feliz" width="50%">
     <p>Precisa de pessoas com experiência em microserviços? CONTA COM A GENTE</p>
     <img src="./images/feliz.jpg" alt="garoto feliz" width="50%">
-    <p>Precisa criar um designe de um site? não conte com a gente...</p>
+    <p>Precisa criar um design de um site? não conte com a gente...</p>
     <img src="./images/triste.png" alt="garoto triste" width="30%" style="margin-left: 100px;">
 </div>
 
