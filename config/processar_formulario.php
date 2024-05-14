@@ -2,6 +2,7 @@
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
+    // Verificar os dados recebidos
     var_dump($_POST);
 
     // Verifica se as variáveis do formulário estão definidas
@@ -50,4 +51,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->close();
     $conexao->close();
 }
+
 ?>
