@@ -5,8 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Define a altura mínima da página para ocupar toda a altura da janela de visualização */
-    /*background-image: linear-gradient(to bottom, #FBE4D8 29%, #000000 29%);*/
-    background-color: #000000;
+    background-image: linear-gradient(to bottom, #9B8371 95%, #463B33);
 
 }
 
@@ -40,12 +39,12 @@ footer {
 }
 
 #sobre {
-    color: black;
+    color: #463B33;
     max-width: 90%;
     padding: 5%;
-    background-color: #fff;
+    background-color: #F9E7D9;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(128, 128, 128, 0.5);
+    box-shadow: 0 0 20px rgba(128, 128, 128, 0.8);
     margin: 5% auto;
     font-size: 50px; /* Altere o valor do font-size conforme necessário */
 }
@@ -54,9 +53,9 @@ footer {
     color: black;
     max-width: 80%; /* Define uma largura máxima para o elemento */
     padding: 5%; /* Adiciona um espaçamento interno relativo */
-    background-color: #fff; /* Fundo branco para o formulário */
+    background-color: #F9E7D9; /* Fundo branco para o formulário */
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(128, 128, 128, 0.5); /* Sombra suave */
+    box-shadow: 0 0 30px rgba(128, 128, 128, 0.5); /* Sombra suave */
     margin: 5% auto; /* Centraliza o elemento horizontalmente e adiciona espaçamento acima e abaixo */
     font-size: 18px; /* Aumenta o tamanho da fonte */
 }
@@ -67,7 +66,31 @@ footer {
     margin-top: 0; /* Zera a margem superior do h1 */
 }
 
+#contato {
+    background-color: #F9E7D9;
+}
 
+/* Cor das letras */
+#contato h2,
+#contato label,
+#contato input[type="text"],
+#contato input[type="email"],
+#contato textarea,
+#contato .btn {
+    color: black;
+}
+
+/* Estilo do botão */
+#contato .btn {
+    background-color: #9B8371; /* Cor de fundo do botão */
+    border-color: #9B8371; /* Cor da borda do botão */
+}
+
+/* Estilo do botão ao passar o mouse */
+#contato .btn:hover {
+    background-color: #A36C41; /* Cor de fundo do botão ao passar o mouse */
+    border-color: #C5824F; /* Cor da borda do botão ao passar o mouse */
+}
 
 
 
