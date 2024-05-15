@@ -26,10 +26,10 @@
                     <a class="nav-link active" aria-current="page" href="sobre.php" style="font-size: 25px; padding-right: 130px;">Sobre</a>
                 </li>
                 <li class="nav-item me-sm-4">
-                    <a class="nav-link active" aria-current="page" href="sobre.php" style="font-size: 25px;">Serviços</a>
+                    <a class="nav-link active" aria-current="page" href="servicos.php" style="font-size: 25px;">Serviços</a>
                 </li>
                 <li class="nav-item me-sm-4">
-                    <a class="nav-link active" aria-current="page" href="sobre.php" style="font-size: 25px; padding-left: 130px;">Contato</a>
+                    <a class="nav-link active" aria-current="page" href="contato.php" style="font-size: 25px; padding-left: 130px;">Contato</a>
                 </li>
             </ul>
         </div>
