@@ -13,31 +13,31 @@
 </head>
 <body>
 <header>
-
-  <nav class="navbar navbar-expand navbar-dark" style="background-image: linear-gradient(to top, #000000, #430447);">
-    <div class="container-fluid">
-      <a class="navbar-brand me-4" href="#" style="font-size: 30px;">Javeiros</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item me-sm-4">
-            <a class="nav-link active" aria-current="page" href="index.php" style="font-size: 20px;">Home</a>
-          </li>
-          <li class="nav-item me-sm-4">
-            <a class="nav-link active" aria-current="page" href="sobre.php" style="font-size: 20px;">Sobre</a>
-          </li>
-          <li class="nav-item me-sm-4">
-            <a class="nav-link active" aria-current="page" href="servicos.php" style="font-size: 20px;">Serviços</a>
-          </li>
-          <li class="nav-item me-sm-4">
-            <a class="nav-link active" aria-current="page" href="contato.php" style="font-size: 20px;">Contato</a>
-          </li>
-        </ul>
-      </div>
+<img src="./images/javeiros3.png" alt="Logo" style="width: 100%; display: block; margin-left: auto; margin-right: auto;">
+<nav class="navbar navbar-expand navbar-dark" style="background-image: linear-gradient(to top, #000000, #FAE8DA);">
+    <div class="container-fluid justify-content-center">
+        <a class="navbar-brand me-4" href="sobre.php"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item me-sm-4">
+                    <a class="nav-link active" aria-current="page" href="sobre.php" style="font-size: 25px; padding-right: 130px;">Sobre</a>
+                </li>
+                <li class="nav-item me-sm-4">
+                    <a class="nav-link active" aria-current="page" href="sobre.php" style="font-size: 25px;">Serviços</a>
+                </li>
+                <li class="nav-item me-sm-4">
+                    <a class="nav-link active" aria-current="page" href="sobre.php" style="font-size: 25px; padding-left: 130px;">Contato</a>
+                </li>
+            </ul>
+        </div>
     </div>
-  </nav>
+</nav>
+
+
+
 
 </header>
 </body>

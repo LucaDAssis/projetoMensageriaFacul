@@ -5,7 +5,9 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Define a altura mínima da página para ocupar toda a altura da janela de visualização */
-    background-color: black;
+    /*background-image: linear-gradient(to bottom, #FBE4D8 29%, #000000 29%);*/
+    background-color: #000000;
+
 }
 
 #contato {
@@ -48,7 +50,7 @@ footer {
     font-size: 50px; /* Altere o valor do font-size conforme necessário */
 }
 
-#paragrafo{
+#servicos{
     color: black;
     max-width: 80%; /* Define uma largura máxima para o elemento */
     padding: 5%; /* Adiciona um espaçamento interno relativo */
