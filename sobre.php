@@ -3,7 +3,7 @@ include_once("templates/header.php");
 ?>
 
     <div id="sobre" style="font-size: 48px;">
-    <h1 style="margin-top: -50px; text-align: center;">Um pouco sobre nós =)</h1>
+    <h1 style="margin-top: -30px; text-align: center;">Um pouco sobre nós =)</h1>
         <h2 style="font-size: 34px; text-align: center;">Somos uma equipe de três apaixonados por tecnologia e desenvolvimento de software, cada um com sua própria jornada e experiência única. Conheça um pouco mais sobre nós:</h2>
         <ul>
             <li style="font-size: 24px;">
