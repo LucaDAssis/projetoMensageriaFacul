@@ -22,3 +22,6 @@ if ($result->num_rows > 0) {
     echo "Nenhuma mensagem encontrada!";
 }
 $conn->close();
+
+    include_once("templates/footer.php");
+?>

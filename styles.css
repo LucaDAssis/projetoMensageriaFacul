@@ -1,40 +1,37 @@
-/* styles.css */
-
-
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Define a altura mínima da página para ocupar toda a altura da janela de visualização */
+    min-height: 100vh;
     background-image: linear-gradient(to bottom, #9B8371 95%, #463B33);
 
 }
 
 #contato {
-    width: 600px; /* Aumenta a largura do formulário */
-    padding: 40px; /* Aumenta o espaço interno do formulário */
-    background-color: #fff; /* Fundo branco para o formulário */
+    width: 600px;
+    padding: 40px;
+    background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(128, 128, 128, 0.5); /* Sombra suave */
-    margin: 50px auto; /* Centraliza o formulário horizontalmente e adiciona espaçamento acima e abaixo */
-    font-size: 18px; /* Aumenta o tamanho da fonte */
+    box-shadow: 0 0 20px rgba(128, 128, 128, 0.5);
+    margin: 50px auto;
+    font-size: 18px;
 }
 
 .form-group {
-    margin-bottom: 15px; /* Adiciona margem inferior aos elementos form-group */
+    margin-bottom: 15px;
 }
 
 .form-wrapper {
-    background-color: #f2f2f2; /* Cinza claro */
+    background-color: #f2f2f2;
     width: 100%;
     padding: 15px;
-    box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
+    box-sizing: border-box;
 }
 
 
 footer {
     padding: 20px;
     text-align: center;
-    margin-top: auto; /* Empurra o footer para o final da página */
+    margin-top: auto;
     color: white;
 }
 
@@ -46,31 +43,30 @@ footer {
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(128, 128, 128, 0.8);
     margin: 5% auto;
-    font-size: 50px; /* Altere o valor do font-size conforme necessário */
+    font-size: 50px;
 }
 
 #servicos{
     color: black;
-    max-width: 80%; /* Define uma largura máxima para o elemento */
-    padding: 5%; /* Adiciona um espaçamento interno relativo */
-    background-color: #F9E7D9; /* Fundo branco para o formulário */
+    max-width: 80%;
+    padding: 5%;
+    background-color: #F9E7D9;
     border-radius: 10px;
-    box-shadow: 0 0 30px rgba(128, 128, 128, 0.5); /* Sombra suave */
-    margin: 5% auto; /* Centraliza o elemento horizontalmente e adiciona espaçamento acima e abaixo */
-    font-size: 18px; /* Aumenta o tamanho da fonte */
+    box-shadow: 0 0 30px rgba(128, 128, 128, 0.5);
+    margin: 5% auto;
+    font-size: 18px;
 }
 
 #paragrafo h1{
     text-align: center;
-    margin-bottom: 90px; /* Adiciona margem inferior ao h1 */
-    margin-top: 0; /* Zera a margem superior do h1 */
+    margin-bottom: 90px;
+    margin-top: 0;
 }
 
 #contato {
     background-color: #F9E7D9;
 }
 
-/* Cor das letras */
 #contato h2,
 #contato label,
 #contato input[type="text"],
@@ -80,17 +76,13 @@ footer {
     color: black;
 }
 
-/* Estilo do botão */
 #contato .btn {
-    background-color: #9B8371; /* Cor de fundo do botão */
-    border-color: #9B8371; /* Cor da borda do botão */
+    background-color: #9B8371;
+    border-color: #9B8371;
 }
 
-/* Estilo do botão ao passar o mouse */
 #contato .btn:hover {
-    background-color: #A36C41; /* Cor de fundo do botão ao passar o mouse */
-    border-color: #C5824F; /* Cor da borda do botão ao passar o mouse */
+    background-color: #A36C41;
+    border-color: #C5824F;
 }
-
-
 

@@ -14,7 +14,7 @@
 <body>
 <header>
 <img src="./images/javeiros3.png" alt="Logo" style="width: 100%; display: block; margin-left: auto; margin-right: auto;">
-<nav class="navbar navbar-expand navbar-dark" style="*background-image: linear-gradient(to top, #9B8371, #FAE8DA);">
+<nav class="navbar navbar-expand navbar-dark" style="background-image: linear-gradient(to top, #9B8371, #FAE8DA);">
     <div class="container-fluid justify-content-center">
         <a class="navbar-brand me-4" href="sobre.php"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,9 +38,6 @@
         </div>
     </div>
 </nav>
-
-
-
 
 </header>
 </body>
