@@ -40,9 +40,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $stmt->bind_param("sss", $nome, $email, $mensagem);
 
-    // Executa a instrução SQL e exibe uma mensagem de sucesso ou erro
+     //Executa a instrução SQL e exibe uma mensagem de sucesso ou erro
     if ($stmt->execute()) {
-        echo "Mensagem enviada com sucesso!";
+        header('Location: thanks.php');
+        exit;
     } else {
         echo "Erro ao enviar a mensagem: " . $conexao->error;
     }
