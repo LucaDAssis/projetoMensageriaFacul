@@ -5,7 +5,7 @@ include_once("templates/header.php");
     <main>
         <section id="contato">
             <h2>Entre em Contato Conosco!</h2>
-            <form action="<?= $BASE_URL?>config/processar_formulario.php" method="POST">
+            <form id="contactForm" action="<?= $BASE_URL?>config/processar_formulario.php" method="POST">
                 <div class="form-group">
                     <label for="nomeInput">Seu Nome</label>
                     <input type="text" class="form-control" id="nomeInput" name="nome" placeholder="Seu Nome">
@@ -23,6 +23,13 @@ include_once("templates/header.php");
             </form>
         </section>
     </main>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            alert('Seu contato foi enviado!');
+        });
+    </script>
+
 <?php
 include_once("templates/footer.php");
 ?>

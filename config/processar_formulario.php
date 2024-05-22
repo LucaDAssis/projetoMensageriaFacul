@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->bind_param("sss", $nome, $email, $mensagem);
 
     if ($stmt->execute()) {
-        header('Location: thanks.php');
+        header('Location: ../contato.php');
         exit;
     } else {
         echo "Erro ao enviar a mensagem: " . $conexao->error;

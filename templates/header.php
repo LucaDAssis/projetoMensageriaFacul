@@ -13,6 +13,7 @@
 </head>
 <body>
 <header>
+
 <img src="./images/javeiros3.png" alt="Logo" style="width: 100%; display: block; margin-left: auto; margin-right: auto;">
 <nav class="navbar navbar-expand navbar-dark" style="background-image: linear-gradient(to top, #9B8371, #FAE8DA);">
     <div class="container-fluid justify-content-center">
@@ -23,16 +24,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
               <li class="nav-item me-sm-4">
-                  <a class="nav-link active" aria-current="page" href="sobre.php" style="font-size: 25px; padding-right: 130px; color: black; font-weight: bold;">Sobre</a>
+                  <a class="nav-link active" aria-current="page" href="index.php" style="font-size: 25px; padding-right: 130px; color: black; font-weight: bold;">Sobre</a>
               </li>
               <li class="nav-item me-sm-4">
                   <a class="nav-link active" aria-current="page" href="servicos.php" style="font-size: 25px; color: black; font-weight: bold;">Serviços</a>
               </li>
               <li class="nav-item me-sm-4">
                   <a class="nav-link active" aria-current="page" href="contato.php" style="font-size: 25px; padding-left: 130px; color: black; font-weight: bold;">Contato</a>
-              </li>
-              <li class="nav-item me-sm-4">
-                  <a class="nav-link active" aria-current="page" href="mensagens.php" style="font-size: 25px; padding-left: 130px; color: black; font-weight: bold">Mensagens</a>
               </li>
             </ul>
         </div>
